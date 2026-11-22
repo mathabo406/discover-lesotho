@@ -137,6 +137,9 @@ img{
 		grid-template-columns: 1fr;
 
 	}
+	.gallery-item img{
+		height: 200px;
+	}
 }
 .row > div[class*="col-"]{
 	margin-bottom: 20px;
@@ -289,4 +292,10 @@ body {
     padding: 30px;
     border-radius: 10px;
     color: white;
+}
+.container{
+	max-width: 100%;
+	width: 100%;
+	padding: 20px;
+	margin: 0;
 }
